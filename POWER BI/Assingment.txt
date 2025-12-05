@@ -1,0 +1,37 @@
+QUESTION 1 : What is Power BI and how does it differ from Excel?
+
+ANSWER, * Power BI is like a modern tool for analysing and visualizing big data.
+        * While Excel is more of a traditional spreadsheet for calculations and smaller reports.
+        * Power BI makes it easy to build dashboards and share insights with others.
+        * Whereas Excel is better for personal data work and quick number crunching.
+
+FEATURE                     POWER BI	                                   EXCEL
+
+1.Purpose	      Data visualization & analytics.	                 Calculations & spreadsheets.
+2.Data Size	      Handles millions of rows smoothly.	             Struggles with very large datasets.
+3.Visualization	  Interactive dashboards, real-time updates.         Static charts and graphs.
+4.Sharing	      Easy publishing \& collaboration.	                 Limited to file sharing.
+5.Best For	      Teams needing insights from big data.	             Individuals working on smaller reports.
+
+
+
+QUESTION 2 : Explain The Concept Of Data Modelling In Power BI? 
+
+ANSWER, What Data Modelling Means in Power BI:
+
+* Organizing data: It's about arranging tables (like Sales, Customers, Products) in a logical way.
+* Relationships: You define how tables connect for example, linking a "Customer ID" in the Sales table to the "Customer ID" in the Customers table.
+* Semantic layer: Power BI creates a model that acts as a foundation for reports, ensuring that calculations and visuals pull the right data.
+* DAX calculations: Data modelling allows you to use Data Analysis Expressions (DAX) to create measures (like total sales, profit margin) that work across related tables.
+
+Component                 ROLE        
+Table                  Store raw data (Sales, Customers, Products).                 
+Relationships          Define how tables connect (one-to-many, many-to-many). 
+Measures               Calculations using DAX (e.g., Total Revenue).
+Hierarchies            Logical drill-downs (Year → Month → Day).
+Data Integrity         Ensures clean, consistent values.
+
+
+QUESTION 3 : What are the different types of connections available in Power BI?
+
+ANSWER, In Power BI, the main types of connections are: Import, Direct Query, Live Connection, and Composite Models. Each defines how Power BI interacts with your data sources.
